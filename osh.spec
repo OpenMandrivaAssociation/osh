@@ -1,7 +1,7 @@
 Name:		osh
 Summary:	V6 Thompson Shell Port
 Version:	20080629
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	BSD with advertising
 Source:		http://v6shell.org/src/osh-%{version}.tar.gz
 URL:		http://v6shell.org/
