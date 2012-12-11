@@ -1,7 +1,7 @@
 Name:		osh
 Summary:	V6 Thompson Shell Port
 Version:	20080629
-Release:	%mkrel 3
+Release:	%mkrel 2
 License:	BSD with advertising
 Source:		http://v6shell.org/src/osh-%{version}.tar.gz
 URL:		http://v6shell.org/
@@ -50,3 +50,15 @@ in command files (aka shell scripts) are also included.
 %{_mandir}/man1/if.1.*
 %{_mandir}/man1/osh.1.*
 %{_mandir}/man1/sh6.1.*
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 20080629-2mdv2010.0
++ Revision: 430222
+- rebuild
+
+* Thu Jul 03 2008 Nicolas Vigier <nvigier@mandriva.com> 20080629-1mdv2009.0
++ Revision: 231285
+- import osh
+
+
