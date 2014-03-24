@@ -1,0 +1,31 @@
+diff -urN osh-20080629/Makefile osh-20080629-patched/Makefile
+--- osh-20080629/Makefile	2008-06-29 17:19:36.000000000 +1100
++++ osh-20080629-patched/Makefile	2014-03-24 20:51:05.606679735 +1100
+@@ -153,21 +153,21 @@
+ install-sh6all: sh6all install-sh6 install-utils
+ 
+ install-osh: $(OSH) man install-dest
+-	$(INSTALL) -c -s $(BINGRP) $(BINMODE) osh     $(DESTDIR)$(BINDIR)
++	$(INSTALL) -c $(BINGRP) $(BINMODE) osh     $(DESTDIR)$(BINDIR)
+ 	$(INSTALL) -c    $(MANGRP) $(MANMODE) osh.1   $(DESTDIR)$(MANDIR)
+ 
+ install-sh6: $(SH6) man install-dest
+-	$(INSTALL) -c -s $(BINGRP) $(BINMODE) sh6     $(DESTDIR)$(BINDIR)
++	$(INSTALL) -c $(BINGRP) $(BINMODE) sh6     $(DESTDIR)$(BINDIR)
+ 	$(INSTALL) -c    $(MANGRP) $(MANMODE) sh6.1   $(DESTDIR)$(MANDIR)
+-	$(INSTALL) -c -s $(BINGRP) $(BINMODE) glob6   $(DESTDIR)$(BINDIR)
++	$(INSTALL) -c $(BINGRP) $(BINMODE) glob6   $(DESTDIR)$(BINDIR)
+ 	$(INSTALL) -c    $(MANGRP) $(MANMODE) glob6.1 $(DESTDIR)$(MANDIR)
+ 
+ install-utils: utils man install-dest
+-	$(INSTALL) -c -s $(BINGRP) $(BINMODE) if      $(DESTDIR)$(BINDIR)
++	$(INSTALL) -c $(BINGRP) $(BINMODE) if      $(DESTDIR)$(BINDIR)
+ 	$(INSTALL) -c    $(MANGRP) $(MANMODE) if.1    $(DESTDIR)$(MANDIR)
+-	$(INSTALL) -c -s $(BINGRP) $(BINMODE) goto    $(DESTDIR)$(BINDIR)
++	$(INSTALL) -c $(BINGRP) $(BINMODE) goto    $(DESTDIR)$(BINDIR)
+ 	$(INSTALL) -c    $(MANGRP) $(MANMODE) goto.1  $(DESTDIR)$(MANDIR)
+-	$(INSTALL) -c -s $(BINGRP) $(BINMODE) fd2     $(DESTDIR)$(BINDIR)
++	$(INSTALL) -c $(BINGRP) $(BINMODE) fd2     $(DESTDIR)$(BINDIR)
+ 	$(INSTALL) -c    $(MANGRP) $(MANMODE) fd2.1   $(DESTDIR)$(MANDIR)
+ 
+ install-dest:
