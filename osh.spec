@@ -1,7 +1,7 @@
 Summary:	V6 Thompson Shell Port
 Name:		osh
 Version:	20080629
-Release:	3
+Release:	4
 License:	BSD with advertising
 Group:		Shells
 Url:		http://v6shell.org/
