@@ -4,7 +4,7 @@ Version:	20080629
 Release:	4
 License:	BSD with advertising
 Group:		Shells
-Url:		http://v6shell.org/
+Url:		https://v6shell.org/
 Source0:	http://v6shell.org/src/osh-%{version}.tar.gz
 Patch0:		osh-20080629-no-strip.patch
 
